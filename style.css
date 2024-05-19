@@ -22,7 +22,7 @@ body{
     
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px #00000010;
+    box-shadow: 2px 2px 5px #00000030;
     
     background-color: #fff;
 }
@@ -30,24 +30,25 @@ p{color: #00000080;}
 input{
     outline: none;
     width: 90%;
-    padding: 2%;
+    padding: 3%;
     border: none;
     border: 1px solid #000;
     border-radius: 5px;
     margin: 15px 0;
 }
 
-.strengthLevel, .passwordStrengthLevel{border: 1px solid #000; border-radius: 5px;}
+.strengthLevel, .passwordStrengthLevel{border-radius: 5px;}
 
 .strengthLevel{
     width: 90%;
     padding: 2%;
     display: flex;
     align-items: flex-start;
+    box-shadow: inset 2px 2px 5px #00000030;
 }
 
 #passwordStrengthLevel{
-    height: 10px;
+    height: 20px;
     border-radius: 5px; 
     background-color: #000;
 }
@@ -56,5 +57,4 @@ input{
     margin: 10px 0;
     font-weight: bold;
 }
-
 
